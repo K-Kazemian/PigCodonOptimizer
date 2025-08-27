@@ -1,6 +1,3 @@
-# Codon optimization for pig (Sus scrofa) based on highest frequency codons
-# Data sourced from https://www.genscript.com/tools/codon-frequency-table
-# Optimal codons selected based on highest fraction (relative usage), with frequency/1000 used to break ties
 
 optimal_codons = {
     'A': 'GCC',
@@ -52,3 +49,4 @@ if __name__ == "__main__":
     print(mrna)
     print("\nOptimized DNA sequence (gene):")
     print(dna)
+
